@@ -13,11 +13,11 @@ I implemented Conditional Access policies to ensure only trusted identities and 
 
 **Overview of Conditional Access policies (policy list):**  
 
-![Validation Passed](../images/46.conditional-access-policies.png)
+![Validation Passed](../images/47.conditional-access-policies-2.png)
 
 **Detailed view of “Require MFA for AVD” policy (assignments, conditions, grant controls):**  
 
-![Validation Passed](../images/47.conditional-access-policies-2.png)
+![Validation Passed](../images/46.conditional-access-policies.png)
 
 **What I enforce:**
 - **Cloud app:** Azure Virtual Desktop  
