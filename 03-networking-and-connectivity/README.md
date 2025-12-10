@@ -81,7 +81,7 @@ The NSG is attached to the AVD-SessionHosts subnet, enforcing the defined rules 
 
 ---
 
-## 4 — Outbound Connectivity Requirements for AVD
+## 4. Outbound Connectivity Requirements for AVD
 
 Azure Virtual Desktop session hosts require outbound internet access to operate correctly. This includes:
 
