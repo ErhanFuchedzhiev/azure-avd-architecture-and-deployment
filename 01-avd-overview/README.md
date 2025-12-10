@@ -89,7 +89,34 @@ If someone wants to follow my design, the flow is:
 
 The goal is that you can go from **no AVD** to a **documented, secure, cost-optimised AVD environment** using this repository as a guide.
 
+---
 
+## Prerequisites
 
-I will keep improving this overview if I change the architecture or add new components in the future.
+Before deploying this Azure Virtual Desktop environment, I ensured that the following prerequisites were in place:
+
+- Azure Subscription with sufficient permissions
+
+  - Owner or Contributor
+  - User Access Administrator for RBAC assignments
+
+- AVD-eligible licensing such as Microsoft 365 E3/E5, Windows 10/11 Enterprise, or equivalent
+
+- Chosen deployment region
+
+  - My deployment uses East US 2, but any AVD-supported region works
+
+- Administrator account
+
+  - The same Entra ID admin account is used consistently throughout the screenshots and configuration steps
+
+- Network connectivity requirements
+
+  - The ability to create VNets, subnets, NSGs, and storage endpoints
+
+- Basic understanding of Azure portal navigation
+
+  - No deep scripting or infrastructure-as-code required for this project
+
+These prerequisites ensure that the environment can be built exactly as documented and help avoid access or configuration issues later in the deployment.
 
