@@ -1,5 +1,5 @@
 
-# 08 — Security and Hardening
+# 08 — Security, Hardening and Monitoring
 
 ## Overview
 In this article, I document how I secured and hardened my Azure Virtual Desktop (AVD) environment following Microsoft best practices. I focused on identity and access controls (Conditional Access, RBAC), network security (Private Endpoints for FSLogix), session host hardening (encryption), FSLogix storage security, and monitoring/diagnostics (Log Analytics + AVD diagnostics).
