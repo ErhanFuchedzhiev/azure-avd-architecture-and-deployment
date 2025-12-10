@@ -1,5 +1,3 @@
-# azure-avd-architecture-and-deployment
-
 # Azure Virtual Desktop Architecture & Deployment Project
 
 In this project, I design and implement a complete Azure Virtual Desktop (AVD) environment using modern identity, secure networking, FSLogix profiles, autoscaling, monitoring, and security hardening.
